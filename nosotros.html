@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felicianos</title>
+    <link rel="shortcut icon" href="imagenes/felilogoicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/nosotros.css">
+</head>
+<body>
+    <nav> 
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="inicio.html" class="nav-enlace ocultar">Inicio</a>
+        <a href="index.html" class="nav-enlace ocultar">Principal</a>
+        <a href="contacto.html" class="nav-enlace ocultar">Contacto</a> 
+    </nav>
+    <h1>Cosas sobre nosotros</h1>
+        <section>
+         <p>
+            Con el correr de los años fuimos experimentando y creciendo juntos en este mundo de los Videos juegos.
+            Desde empezar jugando GTA Roleplay hasta tener días completos de charlas con mis seguidores, siempre aparecen personas nuevas que se van sumando porque ven en nuestro canal cosas que en otros no ven.
+            Somos un mundo de gente que disfruta de juegos tanto en conjuntos como en solitarios. 
+            Yo soy una persona que acepta cada recomendación sobre nuevos juegos y nuevas cosas que me hagan crecer a nivel profesional y a nivel personal.
+            Esta es una comunidad muy diversa, muy entretenida donde encontraras gente que solo pasa su tiempo escuchando música, donde se pierden en un juego porque los distrae, donde buscan compañía de su día cotidiano, en donde a pesar del día siempre encontraras alguien con quien pasar el tiempo.
+            Nuestro mundo de Felicianos está en constante crecimiento, no solo en lo numérico con respecto a cantidad de personas que nos ven,  sino que también a temas de plataformas o juegos, desde jugar en servidores personalizados, hasta tener nuestros propios servidores.
+            Desde ya eres más que bienvenido a que entres en este mundo donde día a día se va llenando más y más de gente maravillosa.
+            </p>
+        </section>
+        <aside>
+            <a href="https://www.youtube.com/watch?v=KA1gctzTL0Y&list=PLGBlpLbR_o1aFeF4HZoNQblHfoUxZq2lf" target="_blank">
+            <img src="imagenes/valorant.png" alt="Valorant"></a>
+            <a href="https://www.youtube.com/watch?v=2mOKzoVAy14&list=PLGBlpLbR_o1ZK7dvWPeklh7S0iAi1Iob1" target="_blank">
+            <img src="imagenes/GTA.png" alt="GTA Roleplay"></a>
+            <a href="https://www.youtube.com/watch?v=1YmOwpucO-c&list=PLGBlpLbR_o1Yqdhj9rOzRSzzxKeztuXvB" target="_blank">
+            <img src="imagenes/logomine.png" alt="Minecraft"></a><br>
+            <a href="https://www.youtube.com/watch?v=R8gpeZ4dJuM&list=PLGBlpLbR_o1aX0LP41FOF-D9afNovcKDc" target="_blank">
+            <img src="imagenes/dbd.png" alt="Dead by Daylight"></a>
+            <a href="https://www.youtube.com/watch?v=_10XVMBUK-I&list=PLGBlpLbR_o1be6tS-I0axsOmEG3LZMb_v" target="_blank"> 
+            <img src="imagenes/leagueoflegends.png" alt="League of Legends"></a>
+            <a href="https://www.twitch.tv/feliciti14" target="_blank">
+            <img src="imagenes/conversaciones.png" alt="Conversaciones"></a>
+
+            
+        </aside>
+    
+
+    <script>
+        function accion(){
+    var ancla = document.getElementsByClassName('nav-enlace');
+    for(var i = 0; i < ancla.length; i++){
+        ancla[i].classList.toggle('ocultar');
+        
+    }
+        }
+    </script>
+</body>
+</html>

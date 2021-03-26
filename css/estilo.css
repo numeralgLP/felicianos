@@ -1,0 +1,61 @@
+body{
+    background-color: #df96d9;
+  
+}
+.pie 
+{
+    background: rgb(202, 195, 199);
+    display: block;
+}
+
+
+.nav-enlace
+{
+    display: inline-block;
+    background: rgb(134, 58, 128);
+    color:rgb(240, 193, 236);
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.nav-enlace:hover
+{
+    background: darkmagenta;
+    color: darksalmon;
+
+}
+nav
+{
+    background: salmon;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(201, 11, 201);
+}
+
+
+.nav-boton{
+    background: salmon;
+    color: rgb(92, 26, 4);
+    padding: 10px 0;
+    border: 2px solid burlywood;
+    display: none;
+
+}
+
+@media (max-width: 600px) {
+    nav {
+        background: rgb(252, 4, 128);
+        flex-direction: column;
+    }
+    .nav_enlace{
+        margin:  10px 0;
+   
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .ocultar{
+        display: none;
+    }
+   }

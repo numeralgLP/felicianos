@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felicianos</title>
+    <link rel="shortcut icon" href="imagenes/felilogoicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body background="imagenes/felilogonuevo.jpg">
+    <nav> 
+        <button class="nav-boton" onclick="accion()">Menu</button>
+      <a href="inicio.html" class="nav-enlace ocultar">Inicio</a>
+      <a href="nosotros.html" class="nav-enlace ocultar">Nosotros</a>
+      <a href="contacto.html" class="nav-enlace ocultar">Contacto</a> 
+    </nav>
+
+
+    <footer class="pie">
+        
+        <h4> CopyrightTodos los derechos reservados <b>Seguinos en nuestras redes</b>
+            <a href="https://twitter.com/SofiaJonhson14" target="_BLANK"><img src="imagenes/logotwitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/feliciti990/" target="_BLANK"><img src="imagenes/logoinsta.png" alt="Instagram"></a>
+            <a href="https://discord.com/invite/G9fUHsZ" target="_BLANK"><img src="imagenes/logodis.png" alt="Discord"></a>
+        </h4>
+            
+    </footer>
+
+<!--Alex me ayudo-->
+
+    <script>
+        function accion(){
+    var ancla = document.getElementsByClassName('nav-enlace');
+    for(var i = 0; i < ancla.length; i++){
+        ancla[i].classList.toggle('ocultar');
+        
+    }
+        }
+    </script>
+    
+</body>
+</html>
