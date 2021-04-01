@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felicianos</title>
+    <link rel="shortcut icon" href="imagenes/felilogoicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <nav> 
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="inicio.html" class="nav-enlace ocultar">Inicio</a>
+        <a href="nosotros.html" class="nav-enlace ocultar">Nosotros</a>
+        <a href="index.html" class="nav-enlace ocultar">Principal</a> 
+    </nav>
+    <div>
+        <section> 
+        
+            <a href="https://discord.com/invite/G9fUHsZ" Target="_blank"><img src="imagenes/discord.png" alt="Discord"></a>
+            <a href="https://www.instagram.com/feliciti990/" Target="_blank"><img src="imagenes/instagram.png" alt="Instagram"></a>
+            <a href="#" Target="_blank"><img src="imagenes/minecraft.png" alt="Minecraft"></a><br>
+            <a href="https://www.twitch.tv/feliciti14" Target="_blank"><img src="imagenes/twitch.png" alt="Twitch"></a>
+            <a href="https://twitter.com/SofiaJonhson14" Target="_blank"><img src="imagenes/twitter.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/channel/UCEShHlXbJzXWBCbBiPgYJVA" Target="_blank"><img src="imagenes/youtube.png" alt="YouTube"></a>
+
+        </section>
+
+
+
+    </div>
+
+
+    <script>
+        function accion(){
+    var ancla = document.getElementsByClassName('nav-enlace');
+    for(var i = 0; i < ancla.length; i++){
+        ancla[i].classList.toggle('ocultar');
+        
+    }
+        }
+    </script>
+</body>
+</html>

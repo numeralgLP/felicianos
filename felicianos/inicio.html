@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felicianos</title>
+    <link rel="shortcut icon" href="imagenes/felilogoicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/inicio.css">
+
+</head>
+<body>
+    <nav> 
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="index.html" class="nav-enlace ocultar">Principal</a>
+        <a href="nosotros.html" class="nav-enlace ocultar">Nosotros</a>
+        <a href="contacto.html" class="nav-enlace ocultar">Contacto</a> 
+    </nav>
+    <h1><img src="imagenes/bienvenidosinicio.png" alt="Bienvenidos a nuestra Web"></h1>
+    <div>
+        
+        <p>Hola bienvenidos a nuestra Web, mi nombre es Laura, pero todos me conocen como Feliciti14, soy de Uruguay y tengo 31 añitos.<br> Esta web es una introducción de lo que puedes encontrar en mis canales principales, sea en YouTube o Twitch.<br> Me veras jugar GTA V Roleplay, Dead by Daylight, Valorant, Minecraft y desde luego conversaciones con todos los Felicianos, entre muchos otros juegos.<br> Esta es una comunidad que poco a poco fue creciendo y llenándose de gente maravillosa, desde los usuarios más antiguos hasta los que van llegando, siempre con el mayor de los respetos, espero que te sientas más que cómodo y seas parte de nuestra hermosa comunidad.
+        </p>
+    </div>
+    <h2><img src="imagenes/algosobrenosotros.png" alt="Algo de nosotros"></h2>
+    <div>
+        
+        <p>Somos una comunidad que poco a poco va creciendo, en ella podrás encontrar gente de distintas edades, como ya te darás cuenta en ella aspiramos a crecer, no solo en el mundo del juego, sino también en la vida. </p>
+        <p>En esta comunidad podrás encontrar gente que siempre estará dispuesta a ayudarte, sea en él un juego o en escucharte, tienen la capacidad de ser gente muy solidaria y sin importar las edades, siempre encontraras la contención que requieras. </p>
+        <p>Desde ya eres bienvenido a nuestra comunidad y siempre tendrás un lugar donde recibirás, amor, diversión y muchas risas aseguradas. </p>
+        <p>Este es nuestro rincón de distracción, donde cada adulto se vuelve niño y donde cada niño se vuelve adulto. Espero que desde donde vengas encuentres lo que buscas porque aquí tienes un lugar donde podrás compartir ideas, juegos y sobre todo momentos en los que dejaras marca en el corazón de cada uno de nosotros. </p>
+
+    </div>
+    <h2><img src="imagenes/reglasgenerales.png" alt="Reglas Generales"></h2>
+    <div>
+    <section>
+        <ul> <li>No insultar, venimos a divertirnos.</li> 
+            <li>No se aceptaran ningún acto de racismo ni discriminación.</li>
+            <li>No spammear.</li>
+            <li>No se podrán hacer pasar por otras personas.</li>
+            <li>Prohibida la difamación de cualquier persona.</li>
+            <li>Mantén el respeto y serás respetado. Gracias!!!</li> 
+        </ul>
+    </section>
+    </div>
+
+
+    <script>
+        function accion(){
+    var ancla = document.getElementsByClassName('nav-enlace');
+    for(var i = 0; i < ancla.length; i++){
+        ancla[i].classList.toggle('ocultar');
+        
+    }
+        }
+    </script>
+</body>
+</html>

@@ -7,26 +7,7 @@ body{
     background: rgb(202, 195, 199);
     display: block;
 }
-html, body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-img {
-    border-radius: 50%;
-}
-main {
-    display: flex;
-    width: 100%;
-    margin: auto;
-    align-items: center;
-}
-h1 {
-   font-size: 32px;
-}
-p {
-   line-height: 30px;
-}
 
 .nav-enlace
 {
